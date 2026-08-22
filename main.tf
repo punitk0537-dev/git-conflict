@@ -14,4 +14,7 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
   name     = "punit-rg"
   location = "West Europe"
+}resource "azurerm_resource_group" "rg3" {
+  name     = "rg-bhakua"
+  location = "West Europe"
 }
