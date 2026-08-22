@@ -19,3 +19,8 @@ resource "azurerm_resource_group" "rg2" {
   name     = "rg-kalua"
   location = "West Europe"
 }
+resource "azurerm_resource_group" "rg3" {
+  name     = "rg-bhakua"
+  location = "West Europe"
+
+}
